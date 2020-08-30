@@ -1,764 +1,781 @@
-/*========================
-Google fonts
-==========================*/
+/*
+  Theme Name:Tajam PSD to HTML Template
+  Author: #Themeforest Does Not Account But Will Open Soon.
+  Author Email: mdrabiulislam300040@gmail.com
+  Support: mdrabiulislam300040@gmail.com
+  Description: Creative  HTL5 Template.
+  Version: 1.0
+*/
+
+/* CSS Table of Contant
+-----------------------------------
+01. Theme default
+02. PRELOADER PART
+03. NAVBER PART
+04. BANNER PART
+05. ABOUT PART
+06. VIDEO PART
+07. EXPARTISE PART
+08. TEAM PART
+09. WORKS PART
+10. TESTIMONIALS PART
+11. CONTACT PART
+12. FOOTER PART
+13. BACK TO TOP-UP PART
+*/
+
+/*===============================
+01. Theme default css start
+================================*/
+
+/*-----Google fonts-----*/
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700;900&family=Roboto:wght@300;400;900&display=swap');
 
-/*========================
-    COMMON CSS START
-==========================*/
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	overflow-x: hidden;
 }
 
 .bg_cover {
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    width: 100%;
-    height: 100vh;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	width: 100%;
+	height: 100vh;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
 img {
-    max-width: 100%;
-    width: 100%;
+	max-width: 100%;
+	width: 100%;
 }
 
 a:focus,
 input:focus,
 textarea:focus,
 button:focus {
-    text-decoration: none;
-    outline: none;
+	text-decoration: none;
+	outline: none;
 }
 
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 i,
 a,
 span {
-    display: inline-block;
+	display: inline-block;
 }
 
 ul,
 ol {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
 }
 
 h1,
 h2,
 h3,
 h5 {
-    font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 32px;
-    color: #fff;
-    padding-bottom: 20px;
-    margin-bottom: 25px;
-    position: relative;
+	font-weight: 900;
+	font-size: 32px;
+	color: #fff;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	position: relative;
 }
 
 h1:before {
-    position: absolute;
-    content: '';
-    left: 50%;
-    top: 100%;
-    width: 50px;
-    height: 1px;
-    background: #00e0d0;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: 100%;
+	width: 50px;
+	height: 1px;
+	background: #00e0d0;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 22px;
-    color: #413d4b;
-    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 22px;
+	color: #413d4b;
+	text-transform: uppercase;
 }
 
 h3 {
-    font-weight: 400;
-    font-size: 14px;
-    color: #2f2d35;
+	font-weight: 400;
+	font-size: 14px;
+	color: #2f2d35;
 }
 
 h5 {
-    font-weight: 400;
-    font-size: 100px;
-    color: #fff;
-    line-height: 22px;
+	font-weight: 400;
+	font-size: 100px;
+	color: #fff;
+	line-height: 22px;
 }
 
 h4,
 .navbar .navbar-nav li a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 h4 {
-    font-size: 14px;
-    color: #413d4b;
+	font-size: 14px;
+	color: #413d4b;
 }
 
 /*====== All Button Style =======*/
 .main_btn,
 button {
-    font-family: 'Hammersmith One', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #00e0d0;
-    padding: 8px 13px;
-    text-transform: uppercase;
-    display: inline-block;
-    border: 1px solid #00e0d0;
-    cursor: pointer;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
+	font-family: 'Hammersmith One', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #00e0d0;
+	padding: 8px 13px;
+	text-transform: uppercase;
+	display: inline-block;
+	border: 1px solid #00e0d0;
+	cursor: pointer;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .main_btn:hover {
-    color: #fff;
-    background: #00e0d0 !important;
+	color: #fff;
+	background: #00e0d0 !important;
 }
 
 p,
 input,
 small,
 textarea {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 }
 
 p {
-    color: #fff;
+	color: #fff;
 }
 
 small {
-    font-size: 13px;
-    color: #fff;
+	font-size: 13px;
+	color: #fff;
 }
 
 .footer_area a,
 .footer_area span {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
 }
 
 /*====== All SECTION TITLE =======*/
 .section_title {
-    text-align: center;
-    padding-top: 64px;
+	text-align: center;
+	padding-top: 64px;
 }
 
 .section_title h3 {
-    position: relative;
-    padding: 0 0 17px 0;
-    margin-bottom: 50px;
+	position: relative;
+	padding: 0 0 17px 0;
+	margin-bottom: 50px;
 }
 
 .section_title h3:before {
-    position: absolute;
-    content: '';
-    left: 50%;
-    top: 100%;
-    width: 50px;
-    height: 2px;
-    background: #c6c4c9;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: 100%;
+	width: 50px;
+	height: 2px;
+	background: #c6c4c9;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .section_title p {
-    line-height: 22px;
+	line-height: 22px;
 }
 
-/*========================
-    COMMON CSS END
-==========================*/
+/*===============================
+01. Theme default css end
+================================*/
 
-
-/*========================
-    PRELOADER PART CSS START
-==========================*/
+/*===============================
+02. PRELOADER PART CSS START
+================================*/
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
 }
 
 .preloader .color-1 {
-    background-color: #ffc600 !important;
+	background-color: #ffc600 !important;
 }
 
 .rubix-cube {
-    border: 1px solid #FFF;
-    width: 48px;
-    height: 48px;
-    background-color: #FFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	border: 1px solid #FFF;
+	width: 48px;
+	height: 48px;
+	background-color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .rubix-cube .layer {
-    width: 14px;
-    height: 14px;
-    background-color: #07294d;
-    border: 1px solid #FFF;
-    position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: #07294d;
+	border: 1px solid #FFF;
+	position: absolute;
 }
 
 .rubix-cube .layer-1 {
-    left: 0px;
-    top: 0px;
-    -webkit-animation: rubixcube4 2s infinite linear;
-    animation: rubixcube4 2s infinite linear;
+	left: 0px;
+	top: 0px;
+	-webkit-animation: rubixcube4 2s infinite linear;
+	animation: rubixcube4 2s infinite linear;
 }
 
 .rubix-cube .layer-2 {
-    left: 16px;
-    top: 0px;
-    -webkit-animation: rubixcube3 2s infinite linear;
-    animation: rubixcube3 2s infinite linear;
+	left: 16px;
+	top: 0px;
+	-webkit-animation: rubixcube3 2s infinite linear;
+	animation: rubixcube3 2s infinite linear;
 }
 
 .rubix-cube .layer-3 {
-    left: 32px;
-    top: 0px;
+	left: 32px;
+	top: 0px;
 }
 
 .rubix-cube .layer-4 {
-    left: 0px;
-    top: 16px;
-    -webkit-animation: rubixcube5 2s infinite linear;
-    animation: rubixcube5 2s infinite linear;
+	left: 0px;
+	top: 16px;
+	-webkit-animation: rubixcube5 2s infinite linear;
+	animation: rubixcube5 2s infinite linear;
 }
 
 .rubix-cube .layer-5 {
-    left: 16px;
-    top: 16px;
-    -webkit-animation: rubixcube2 2s infinite linear;
-    animation: rubixcube2 2s infinite linear;
+	left: 16px;
+	top: 16px;
+	-webkit-animation: rubixcube2 2s infinite linear;
+	animation: rubixcube2 2s infinite linear;
 }
 
 .rubix-cube .layer-6 {
-    left: 32px;
-    top: 16px;
-    -webkit-animation: rubixcube1 2s infinite linear;
-    animation: rubixcube1 2s infinite linear;
+	left: 32px;
+	top: 16px;
+	-webkit-animation: rubixcube1 2s infinite linear;
+	animation: rubixcube1 2s infinite linear;
 }
 
 .rubix-cube .layer-7 {
-    left: 0px;
-    top: 32px;
-    -webkit-animation: rubixcube6 2s infinite linear;
-    animation: rubixcube6 2s infinite linear;
+	left: 0px;
+	top: 32px;
+	-webkit-animation: rubixcube6 2s infinite linear;
+	animation: rubixcube6 2s infinite linear;
 }
 
 .rubix-cube .layer-8 {
-    left: 16px;
-    top: 32px;
-    -webkit-animation: rubixcube7 2s infinite linear;
-    animation: rubixcube7 2s infinite linear;
+	left: 16px;
+	top: 32px;
+	-webkit-animation: rubixcube7 2s infinite linear;
+	animation: rubixcube7 2s infinite linear;
 }
 
 @-webkit-keyframes rubixcube1 {
-    20% {
-        top: 16px;
-        left: 32px;
-    }
+	20% {
+		top: 16px;
+		left: 32px;
+	}
 
-    30% {
-        top: 32px;
-        left: 32px;
-    }
+	30% {
+		top: 32px;
+		left: 32px;
+	}
 
-    40% {
-        top: 32px;
-        left: 32px;
-    }
+	40% {
+		top: 32px;
+		left: 32px;
+	}
 
-    50% {
-        top: 32px;
-        left: 32px;
-    }
+	50% {
+		top: 32px;
+		left: 32px;
+	}
 
-    60% {
-        top: 32px;
-        left: 32px;
-    }
+	60% {
+		top: 32px;
+		left: 32px;
+	}
 
-    70% {
-        top: 32px;
-        left: 32px;
-    }
+	70% {
+		top: 32px;
+		left: 32px;
+	}
 
-    80% {
-        top: 32px;
-        left: 32px;
-    }
+	80% {
+		top: 32px;
+		left: 32px;
+	}
 
-    90% {
-        top: 32px;
-        left: 32px;
-    }
+	90% {
+		top: 32px;
+		left: 32px;
+	}
 
-    100% {
-        top: 32px;
-        left: 16px;
-    }
+	100% {
+		top: 32px;
+		left: 16px;
+	}
 }
 
 @keyframes rubixcube1 {
-    20% {
-        top: 16px;
-        left: 32px;
-    }
+	20% {
+		top: 16px;
+		left: 32px;
+	}
 
-    30% {
-        top: 32px;
-        left: 32px;
-    }
+	30% {
+		top: 32px;
+		left: 32px;
+	}
 
-    40% {
-        top: 32px;
-        left: 32px;
-    }
+	40% {
+		top: 32px;
+		left: 32px;
+	}
 
-    50% {
-        top: 32px;
-        left: 32px;
-    }
+	50% {
+		top: 32px;
+		left: 32px;
+	}
 
-    60% {
-        top: 32px;
-        left: 32px;
-    }
+	60% {
+		top: 32px;
+		left: 32px;
+	}
 
-    70% {
-        top: 32px;
-        left: 32px;
-    }
+	70% {
+		top: 32px;
+		left: 32px;
+	}
 
-    80% {
-        top: 32px;
-        left: 32px;
-    }
+	80% {
+		top: 32px;
+		left: 32px;
+	}
 
-    90% {
-        top: 32px;
-        left: 32px;
-    }
+	90% {
+		top: 32px;
+		left: 32px;
+	}
 
-    100% {
-        top: 32px;
-        left: 16px;
-    }
+	100% {
+		top: 32px;
+		left: 16px;
+	}
 }
 
 @-webkit-keyframes rubixcube2 {
-    30% {
-        left: 16px;
-    }
+	30% {
+		left: 16px;
+	}
 
-    40% {
-        left: 32px;
-    }
+	40% {
+		left: 32px;
+	}
 
-    50% {
-        left: 32px;
-    }
+	50% {
+		left: 32px;
+	}
 
-    60% {
-        left: 32px;
-    }
+	60% {
+		left: 32px;
+	}
 
-    70% {
-        left: 32px;
-    }
+	70% {
+		left: 32px;
+	}
 
-    80% {
-        left: 32px;
-    }
+	80% {
+		left: 32px;
+	}
 
-    90% {
-        left: 32px;
-    }
+	90% {
+		left: 32px;
+	}
 
-    100% {
-        left: 32px;
-    }
+	100% {
+		left: 32px;
+	}
 }
 
 @keyframes rubixcube2 {
-    30% {
-        left: 16px;
-    }
+	30% {
+		left: 16px;
+	}
 
-    40% {
-        left: 32px;
-    }
+	40% {
+		left: 32px;
+	}
 
-    50% {
-        left: 32px;
-    }
+	50% {
+		left: 32px;
+	}
 
-    60% {
-        left: 32px;
-    }
+	60% {
+		left: 32px;
+	}
 
-    70% {
-        left: 32px;
-    }
+	70% {
+		left: 32px;
+	}
 
-    80% {
-        left: 32px;
-    }
+	80% {
+		left: 32px;
+	}
 
-    90% {
-        left: 32px;
-    }
+	90% {
+		left: 32px;
+	}
 
-    100% {
-        left: 32px;
-    }
+	100% {
+		left: 32px;
+	}
 }
 
 @-webkit-keyframes rubixcube3 {
-    30% {
-        top: 0px;
-    }
+	30% {
+		top: 0px;
+	}
 
-    40% {
-        top: 0px;
-    }
+	40% {
+		top: 0px;
+	}
 
-    50% {
-        top: 16px;
-    }
+	50% {
+		top: 16px;
+	}
 
-    60% {
-        top: 16px;
-    }
+	60% {
+		top: 16px;
+	}
 
-    70% {
-        top: 16px;
-    }
+	70% {
+		top: 16px;
+	}
 
-    80% {
-        top: 16px;
-    }
+	80% {
+		top: 16px;
+	}
 
-    90% {
-        top: 16px;
-    }
+	90% {
+		top: 16px;
+	}
 
-    100% {
-        top: 16px;
-    }
+	100% {
+		top: 16px;
+	}
 }
 
 @keyframes rubixcube3 {
-    30% {
-        top: 0px;
-    }
+	30% {
+		top: 0px;
+	}
 
-    40% {
-        top: 0px;
-    }
+	40% {
+		top: 0px;
+	}
 
-    50% {
-        top: 16px;
-    }
+	50% {
+		top: 16px;
+	}
 
-    60% {
-        top: 16px;
-    }
+	60% {
+		top: 16px;
+	}
 
-    70% {
-        top: 16px;
-    }
+	70% {
+		top: 16px;
+	}
 
-    80% {
-        top: 16px;
-    }
+	80% {
+		top: 16px;
+	}
 
-    90% {
-        top: 16px;
-    }
+	90% {
+		top: 16px;
+	}
 
-    100% {
-        top: 16px;
-    }
+	100% {
+		top: 16px;
+	}
 }
 
 @-webkit-keyframes rubixcube4 {
-    50% {
-        left: 0px;
-    }
+	50% {
+		left: 0px;
+	}
 
-    60% {
-        left: 16px;
-    }
+	60% {
+		left: 16px;
+	}
 
-    70% {
-        left: 16px;
-    }
+	70% {
+		left: 16px;
+	}
 
-    80% {
-        left: 16px;
-    }
+	80% {
+		left: 16px;
+	}
 
-    90% {
-        left: 16px;
-    }
+	90% {
+		left: 16px;
+	}
 
-    100% {
-        left: 16px;
-    }
+	100% {
+		left: 16px;
+	}
 }
 
 @keyframes rubixcube4 {
-    50% {
-        left: 0px;
-    }
+	50% {
+		left: 0px;
+	}
 
-    60% {
-        left: 16px;
-    }
+	60% {
+		left: 16px;
+	}
 
-    70% {
-        left: 16px;
-    }
+	70% {
+		left: 16px;
+	}
 
-    80% {
-        left: 16px;
-    }
+	80% {
+		left: 16px;
+	}
 
-    90% {
-        left: 16px;
-    }
+	90% {
+		left: 16px;
+	}
 
-    100% {
-        left: 16px;
-    }
+	100% {
+		left: 16px;
+	}
 }
 
 @-webkit-keyframes rubixcube5 {
-    60% {
-        top: 16px;
-    }
+	60% {
+		top: 16px;
+	}
 
-    70% {
-        top: 0px;
-    }
+	70% {
+		top: 0px;
+	}
 
-    80% {
-        top: 0px;
-    }
+	80% {
+		top: 0px;
+	}
 
-    90% {
-        top: 0px;
-    }
+	90% {
+		top: 0px;
+	}
 
-    100% {
-        top: 0px;
-    }
+	100% {
+		top: 0px;
+	}
 }
 
 @keyframes rubixcube5 {
-    60% {
-        top: 16px;
-    }
+	60% {
+		top: 16px;
+	}
 
-    70% {
-        top: 0px;
-    }
+	70% {
+		top: 0px;
+	}
 
-    80% {
-        top: 0px;
-    }
+	80% {
+		top: 0px;
+	}
 
-    90% {
-        top: 0px;
-    }
+	90% {
+		top: 0px;
+	}
 
-    100% {
-        top: 0px;
-    }
+	100% {
+		top: 0px;
+	}
 }
 
 @-webkit-keyframes rubixcube6 {
-    70% {
-        top: 32px;
-    }
+	70% {
+		top: 32px;
+	}
 
-    80% {
-        top: 16px;
-    }
+	80% {
+		top: 16px;
+	}
 
-    90% {
-        top: 16px;
-    }
+	90% {
+		top: 16px;
+	}
 
-    100% {
-        top: 16px;
-    }
+	100% {
+		top: 16px;
+	}
 }
 
 @keyframes rubixcube6 {
-    70% {
-        top: 32px;
-    }
+	70% {
+		top: 32px;
+	}
 
-    80% {
-        top: 16px;
-    }
+	80% {
+		top: 16px;
+	}
 
-    90% {
-        top: 16px;
-    }
+	90% {
+		top: 16px;
+	}
 
-    100% {
-        top: 16px;
-    }
+	100% {
+		top: 16px;
+	}
 }
 
 @-webkit-keyframes rubixcube7 {
-    80% {
-        left: 16px;
-    }
+	80% {
+		left: 16px;
+	}
 
-    90% {
-        left: 0px;
-    }
+	90% {
+		left: 0px;
+	}
 
-    100% {
-        left: 0px;
-    }
+	100% {
+		left: 0px;
+	}
 }
 
 @keyframes rubixcube7 {
-    80% {
-        left: 16px;
-    }
+	80% {
+		left: 16px;
+	}
 
-    90% {
-        left: 0px;
-    }
+	90% {
+		left: 0px;
+	}
 
-    100% {
-        left: 0px;
-    }
+	100% {
+		left: 0px;
+	}
 }
 
-/*========================
-    PRELOADER PART CSS END
-==========================*/
+/*===============================
+02. PRELOADER PART CSS END
+================================*/
 
-/*========================
-    NAVBER PART CSS START
-==========================*/
-
+/*===============================
+03. NAVBER PART CSS START
+================================*/
 .navbar.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #272444;
-    z-index: 999;
-    border-bottom: 1px solid #00e0d0;
-    -webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
-    box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
-    -webkit-animation: sticky 2s;
-    animation: sticky 2s;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #272444;
+	z-index: 999;
+	border-bottom: 1px solid #00e0d0;
+	-webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+	-webkit-animation: sticky 2s;
+	animation: sticky 2s;
 }
 
 @-webkit-keyframes sticky {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%)
-    }
+	0% {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%)
+	}
 
-    100% {
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%)
-    }
+	100% {
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%)
+	}
 }
 
 @keyframes sticky {
-    0% {
-        -webkit-transform: translateY(-100%);
-        transform: translateY(-100%)
-    }
+	0% {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%)
+	}
 
-    100% {
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%)
-    }
+	100% {
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%)
+	}
 }
 
 
 .navbar {
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    z-index: 9999;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
 }
 
 .navbar .navbar-nav li {
-    position: relative;
+	position: relative;
 }
 
 .navbar .navbar-nav li a {
-    font-size: 13px;
-    color: #fff;
-    -webkit-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    padding: 30px 0 30px 25px;
-    display: block;
+	font-size: 13px;
+	color: #fff;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	padding: 30px 0 30px 25px;
+	display: block;
 }
 
 /*.navbar .navbar-nav > li > a.active,*/
 .navbar .navbar-nav > li:hover > a {
-    color: #00e0d0;
-    text-decoration: none;
+	color: #00e0d0;
+	text-decoration: none;
 }
 
 /*==== sub-menu ====*/
@@ -811,733 +828,706 @@ small {
 }*/
 
 .navbar .navbar-toggler {
-    padding: 3px 8px;
-    margin: 18px 0;
-    transition: all 0.4s linear;
-    border-color: rgba(7, 41, 77, .1);
+	padding: 3px 8px;
+	margin: 18px 0;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	border-color: rgba(7, 41, 77, .1);
 }
 
 .navbar .navbar-toggler .icon-bar {
-    width: 30px;
-    height: 2px;
-    background-color: #1d074d;
-    display: block;
-    margin: 5px 0;
-    position: relative;
-    -webkit-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
+	width: 30px;
+	height: 2px;
+	background-color: #1d074d;
+	display: block;
+	margin: 5px 0;
+	position: relative;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
 }
 
 .navbar .navbar-toggler.active .icon-bar:nth-of-type(1) {
-    -webkit-transform: rotate(46deg);
-    -ms-transform: rotate(46deg);
-    transform: rotate(46deg);
-    top: 7px;
+	-webkit-transform: rotate(46deg);
+	transform: rotate(46deg);
+	top: 7px;
 }
 
 .navbar .navbar-toggler.active .icon-bar:nth-of-type(2) {
-    opacity: 0;
+	opacity: 0;
 }
 
 .navbar .navbar-toggler.active .icon-bar:nth-of-type(3) {
-    -webkit-transform: rotate(134deg);
-    -ms-transform: rotate(134deg);
-    transform: rotate(134deg);
-    top: -7px;
+	-webkit-transform: rotate(134deg);
+	transform: rotate(134deg);
+	top: -7px;
 }
 
-/*=========================
-    NAVBER PART CSS END
-==========================*/
+/*===============================
+03. NAVBER PART CSS END
+================================*/
 
+/*===============================
+04. BANNER PART CSS START
+================================*/
 
-/*=========================
-    BANNER PART CSS START 
-==========================*/
 .overlay {
-    background: -o-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.80));
-    background: -webkit-gradient(linear, left top, right top, from(rgba(9, 5, 47, 0.85)), to(rgba(49, 29, 94, 0.80)));
-    background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.80));
-    height: 100%;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(9, 5, 47, 0.85)), to(rgba(49, 29, 94, 0.80)));
+	background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(49, 29, 94, 0.80));
+	height: 100%;
 
 }
 
 .banner_area .section_title {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 .banner_area .section_title p {
-    line-height: 24px;
-    padding-bottom: 30px;
+	line-height: 24px;
+	padding-bottom: 30px;
 }
 
 
 
 /* =====SLICK SLIDE ===== */
 .slick-dots {
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 70px;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 70px;
 }
 
 .slick-dots li {
-    display: inline-block;
+	display: inline-block;
 }
 
 .slick-dots li button {
-    font-size: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 1px solid #bab9bc;
-    background: transparent;
-    margin: 0px 3px;
-    cursor: pointer;
-    padding: 0;
-    transition: all .4s linear;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    -o-transition: all .4s linear;
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #bab9bc;
+	background: transparent;
+	margin: 0px 3px;
+	cursor: pointer;
+	padding: 0;
+	transition: all .4s linear;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-ms-transition: all .4s linear;
+	-o-transition: all .4s linear;
 }
 
 .slick-dots li.slick-active button {
-    background: #00e0d0;
-    border: none;
+	background: #00e0d0;
+	border: none;
 }
 
-/*=========================
-    BANNER PART CSS END 
-==========================*/
+/*===============================
+04. BANNER PART CSS END
+================================*/
 
+/*===============================
+05. ABOUT PART CSS START
+================================*/
 
-
-
-/*==========================
-    ABOUT PART CSS START 
-==========================*/
 .about_area .section_title {
-    padding-bottom: 69px;
+	padding-bottom: 69px;
 }
 
 .about_area img {
-    padding: 70px 0;
+	padding: 70px 0;
 }
 
 .about_area h2 {
-    padding-bottom: 13px;
+	padding-bottom: 13px;
 }
 
 .about_area p {
-    color: #413d4b;
-    padding-bottom: 11px;
+	color: #413d4b;
+	padding-bottom: 11px;
 }
 
-/*=========================
-    ABOUT PART CSS END 
-=========================*/
+/*===============================
+05. ABOUT PART CSS END
+================================*/
 
+/*===============================
+06. VIDEO PART CSS START
+================================*/
 
-/*==============================
-    VIDEO PART CSS START
-==============================*/
 .video_area.bg_cover {
-    height: 100%;
+	height: 100%;
 }
 
 .video_area .video_pt {
-    padding-top: 202px;
-    padding-bottom: 190px;
+	padding-top: 202px;
+	padding-bottom: 190px;
 }
 
 .video_area .video_Btn {
-    border: 4px solid #fff;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    margin-bottom: 28px;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-    -webkit-animation: at-ripple 1.5s linear infinite;
-    animation: at-ripple 1.5s linear infinite;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	margin-bottom: 28px;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+	-webkit-animation: at-ripple 1.5s linear infinite;
+	animation: at-ripple 1.5s linear infinite;
 }
 
 .video_area .video_Btn .fa {
-    font-size: 30px;
-    color: #fff;
-    padding: 15px;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
+	font-size: 30px;
+	color: #fff;
+	padding: 15px;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .video_area .video_Btn:hover {
-    border: 4px solid #00e0d0;
+	border: 4px solid #00e0d0;
 }
 
 .video_area .video_Btn:hover .fa {
-    color: #00e0d0;
-    -webkit-transform: rotate(360deg) scale(1.1);
-    -ms-transform: rotate(360deg) scale(1.1);
-    transform: rotate(360deg) scale(1.1)
+	color: #00e0d0;
+	-webkit-transform: rotate(360deg) scale(1.1);
+	transform: rotate(360deg) scale(1.1)
 }
 
 .video_area .video_pt h4 {
-    color: #fff;
-    font-size: 16px;
+	color: #fff;
+	font-size: 16px;
 }
 
 @-webkit-keyframes at-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
-        box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
-    }
+	0% {
+		-webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
+		box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
+	}
 
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
-        box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
-    }
+	100% {
+		-webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
+		box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
+	}
 }
 
 @keyframes at-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
-        box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
-    }
+	0% {
+		-webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
+		box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 0 rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3);
+	}
 
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
-        box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
-    }
+	100% {
+		-webkit-box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
+		box-shadow: 0 4px 10px rgba(0, 224, 208, 0.3), 0 0 0 5px rgba(0, 224, 208, 0.3), 0 0 0 10px rgba(0, 224, 208, 0.3), 0 0 0 20px rgba(0, 224, 208, 0);
+	}
 }
 
-/*==============================
-    VIDEO PART CSS END
-==============================*/
+/*===============================
+06. VIDEO PART CSS END
+================================*/
 
+/*===============================
+07. EXPARTISE PART CSS START
+================================*/
 
-/*==============================
-    EXPARTISE PART CSS START
-==============================*/
 #EXPERTISE {
-    padding-bottom: 51px;
+	padding-bottom: 51px;
 }
 
 .expartise_area .exp_item img {
-    width: auto;
-    position: relative;
-    -webkit-transition: all .3s linear !important;
-    -o-transition: all .3s linear !important;
-    transition: all .3s linear !important;
+	width: auto;
+	position: relative;
+	-webkit-transition: all .3s linear !important;
+	transition: all .3s linear !important;
 }
 
 .expartise_area .exp_item {
-    text-align: center;
-    padding: 30px 0;
-    -webkit-transition: all .3s linear !important;
-    -o-transition: all .3s linear !important;
-    transition: all .3s linear !important;
+	text-align: center;
+	padding: 30px 0;
+	-webkit-transition: all .3s linear !important;
+	transition: all .3s linear !important;
 }
 
 .exp_item:hover {
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
-    border-bottom: 1px solid #00e0d0;
-    background-color: #f6f6f6;
-    border-radius: 1%;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+	border-bottom: 1px solid #00e0d0;
+	background-color: #f6f6f6;
+	border-radius: 1%;
 }
 
 .expartise_area .exp_item h4 {
-    padding: 31px 0 9px 0;
+	padding: 31px 0 9px 0;
 }
 
 .expartise_area .exp_item p {
-    color: #333;
+	color: #333;
 }
 
 .exp_item a:hover > img {
-    -webkit-transform: rotate(360deg) scale(1.1);
-    -ms-transform: rotate(360deg) scale(1.1);
-    transform: rotate(360deg) scale(1.1);
+	-webkit-transform: rotate(360deg) scale(1.1);
+	transform: rotate(360deg) scale(1.1);
 }
 
 .exp_item a:hover > h4 {
-    background: -webkit-linear-gradient(210deg, #00e0d0, #4aa3cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(210deg, #00e0d0, #4aa3cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
-/*==============================
-    EXPARTISE PART CSS END 
-==============================*/
+/*===============================
+07. EXPARTISE PART CSS END
+================================*/
 
+/*===============================
+08. TEAM PART CSS START
+================================*/
 
-
-/*===========================
-    TEAM PART CSS START 
-===========================*/
 .team_area {
-    height: 100%;
+	height: 100%;
 }
 
 .team_area .section_title h2 {
-    color: #fff;
+	color: #fff;
 }
 
 .team_area .section_title h3 {
-    color: #f9f9f9;
+	color: #f9f9f9;
 }
 
 .team_area .section_title h3:before {
-    background: #655b80;
+	background: #655b80;
 }
 
 .team_area .team_item .venobox {
-    width: 100%;
-    overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 }
 
 .team_area .team_item img {
-    width: 100%;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
+	width: 100%;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
 .team_area .team_item img:hover {
-    -webkit-transform: rotate(-5deg) scale(1.1);
-    -ms-transform: rotate(-5deg) scale(1.1);
-    transform: rotate(-5deg) scale(1.1);
+	-webkit-transform: rotate(-5deg) scale(1.1);
+	transform: rotate(-5deg) scale(1.1);
 }
 
 .team_area .team_item .team_text {
-    border: 1px solid #7b778f;
-    padding-top: 16px;
-    padding-bottom: 19px;
-    margin-bottom: 68px;
-    margin-top: -7px;
+	border: 1px solid #7b778f;
+	padding-top: 16px;
+	padding-bottom: 19px;
+	margin-bottom: 68px;
+	margin-top: -7px;
 }
 
 .team_area .team_item .team_text h4 {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .team_area .team_item .team_text small {
-    color: #fafafa;
+	color: #fafafa;
 }
 
 .team_area .team_bottom {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
 }
 
 .team_area .team_bottom p {
-    padding-bottom: 7px;
+	padding-bottom: 7px;
 }
 
-/*===========================
-    TEAM PART CSS END 
-===========================*/
+/*===============================
+08. TEAM PART CSS END
+================================*/
 
+/*===============================
+09. WORKS PART CSS START
+================================*/
 
-
-/*===========================
-    WORKS PART CSS START 
-===========================*/
 .works_area .section_title h3 {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .work_btn {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 .work_btn .main_btn {
-    background: #fff;
-    text-transform: capitalize;
-    color: #413d4b;
-    border: 1px solid #ddd;
-    margin: 0 2px;
-    padding: 4px 8px;
+	background: #fff;
+	text-transform: capitalize;
+	color: #413d4b;
+	border: 1px solid #ddd;
+	margin: 0 2px;
+	padding: 4px 8px;
 }
 
 .work_btn .main_btn:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .works_area .mix_gal {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
 }
 
 .works_area .mix_gal .animation,
 .works_area .mix_gal .web_Design,
 .works_area .mix_gal .web_dev,
 .works_area .mix_gal .graphic_design {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .works_area .mix_gal img {
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
 }
 
 .works_area .mix_gal img:hover {
-    -webkit-transform: rotate(-5deg) scale(1.15);
-    -ms-transform: rotate(-5deg) scale(1.15);
-    transform: rotate(-5deg) scale(1.15);
-    opacity: .9;
+	-webkit-transform: rotate(-5deg) scale(1.15);
+	transform: rotate(-5deg) scale(1.15);
+	opacity: .9;
 }
 
 .works_area a {
-    padding: 8px 24px;
-    margin-bottom: 70px;
+	padding: 8px 24px;
+	margin-bottom: 70px;
 }
 
-/*===========================
-    WORKS PART CSS ENDEND 
-===========================*/
-
-
-
-/*================================
-    TESTIMONIALS PART CSS START 
+/*===============================
+09. WORKS PART CSS END
 ================================*/
+
+/*===============================
+10. TESTIMONIALS PART CSS START
+================================*/
+
 .testimonial_area .bg_cover {
-    height: 100%;
+	height: 100%;
 }
 
 .testimonial_area .overlay {
-    position: inherit;
+	position: inherit;
 }
 
 .testimonial_area .section_title {
-    padding-bottom: 133px;
-    padding-top: 69px;
+	padding-bottom: 133px;
+	padding-top: 69px;
 }
 
 .testimonial_area h5 {
-    padding-top: 72px;
-    padding-bottom: 12px;
+	padding-top: 72px;
+	padding-bottom: 12px;
 }
 
 .testimonial_area h3 {
-    color: #fff;
-    margin-bottom: 10px;
-    line-height: 26px;
+	color: #fff;
+	margin-bottom: 10px;
+	line-height: 26px;
 }
 
 .testimonial_area h3:before {
-    display: none;
+	display: none;
 }
 
 .testimonial_area h4 {
-    color: #fff;
-    line-height: 22px;
-    margin-bottom: 0;
+	color: #fff;
+	line-height: 22px;
+	margin-bottom: 0;
 }
 
 .testimonial_area small {
-    line-height: 22px;
+	line-height: 22px;
 }
 
 /* ===== silck slider ===== */
 .testimonial_area .slick-dots {
-    bottom: 75px;
+	bottom: 75px;
 }
 
 .testimonial_area .slick-dots li button {
-    width: 21px;
-    height: 21px;
-    margin: 0 14px;
-    background-color: #fff;
+	width: 21px;
+	height: 21px;
+	margin: 0 14px;
+	background-color: #fff;
 }
 
 .testimonial_area .slick-dots li.slick-active button {
-    height: 21px;
-    width: 21px;
-    background-color: #00e0d0;
-    border: 6px solid #fff;
+	height: 21px;
+	width: 21px;
+	background-color: #00e0d0;
+	border: 6px solid #fff;
 }
 
-/*================================
-    TESTIMONIALS PART CSS END 
+/*===============================
+10. TESTIMONIALS PART CSS END
 ================================*/
 
+/*===============================
+11. CONTACT PART CSS START
+================================*/
 
-/*===========================
-    CONTACT PART CSS START 
-===========================*/
 .contact_area {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
 }
 
 .contact_area h2 {
-    padding-top: 64px !important;
-    padding-bottom: 9px;
+	padding-top: 64px !important;
+	padding-bottom: 9px;
 }
 
 .from_al input,
 textarea {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #e5e5e5;
-    padding: 11px 10px 11px 18px;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #e5e5e5;
+	padding: 11px 10px 11px 18px;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #413d4b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #413d4b;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #413d4b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #413d4b;
 }
 
 input::placeholder,
 textarea::placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: #413d4b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #413d4b;
 }
 
 input:focus,
 textarea:focus {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    border-bottom: 2px solid #00e0d0 !important;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	border-bottom: 2px solid #00e0d0 !important;
 }
 
 .contact_area .main_btn {
-    background: #ffffff;
-    padding: 7px 32px;
+	background: #ffffff;
+	padding: 7px 32px;
 }
 
 .contact_area img {
-    padding: 23px 0;
-    width: auto;
+	padding: 23px 0;
+	width: auto;
 }
 
 .l_right {
-    margin-right: 79px;
+	margin-right: 79px;
 }
 
-/*===========================
-    CONTACT PART CSS END 
-===========================*/
+/*===============================
+11. CONTACT PART CSS END
+================================*/
 
+/*===============================
+12. FOOTER PART CSS START
+================================*/
 
-
-/*===========================
-    FOOTER PART CSS START 
-===========================*/
 .footer_item {
-    padding: 64px 0;
+	padding: 64px 0;
 }
 
 .footer_area {
-    height: 100%;
+	height: 100%;
 }
 
 .footer_area p {
-    line-height: 26px;
-    padding-top: 21px;
+	line-height: 26px;
+	padding-top: 21px;
 }
 
 .footer_area h4 {
-    color: #fff;
-    text-align: left;
-    padding-bottom: 26px;
-    padding-top: 21px;
+	color: #fff;
+	text-align: left;
+	padding-bottom: 26px;
+	padding-top: 21px;
 }
 
 .footer_left {
-    padding-right: 20px;
+	padding-right: 20px;
 }
 
 .footer_center {
-    padding-left: 28px;
+	padding-left: 28px;
 }
 
 .footer_center img {
-    width: auto;
+	width: auto;
 }
 
 .footer_center p {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 .footer_rig {
-    padding-left: 83px !important;
+	padding-left: 83px !important;
 }
 
 .footer_right form input {
-    line-height: 26px;
-    width: 200px;
-    color: #fff;
-    background-color: #fff0 !important;
-    border: 1px solid #9e98b0;
-    height: 45px;
-    padding-left: 15px;
-    position: relative;
+	line-height: 26px;
+	width: 200px;
+	color: #fff;
+	background-color: #fff0 !important;
+	border: 1px solid #9e98b0;
+	height: 45px;
+	padding-left: 15px;
+	position: relative;
 }
 
 .footer_right form input::-webkit-input-placeholder {
-    color: #fff;
+	color: #fff;
 }
 
 .footer_right form input:-ms-input-placeholder {
-    color: #fff;
+	color: #fff;
 }
 
 .footer_right form input::placeholder {
-    color: #fff;
+	color: #fff;
 }
 
 .footer_right form .main_btn {
-    position: absolute;
-    height: 45px;
-    width: 70px;
-    border: none;
-    margin-left: 10px;
-    background: #ffffff7c;
+	position: absolute;
+	height: 45px;
+	width: 70px;
+	border: none;
+	margin-left: 10px;
+	background: #ffffff7c;
 }
 
 .footer_right form .fa {
-    font-size: 25px;
-    color: #000;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+	font-size: 25px;
+	color: #000;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .main_btn:hover .fa-paper-plane {
-    color: #fff !important;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
+	color: #fff !important;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .main_btn:hover .fa {
-    color: #000;
-    -webkit-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
+	color: #000;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .footer_social {
-    padding-top: 27px;
+	padding-top: 27px;
 }
 
 .footer_social a {
-    border: 1px solid #fff;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    padding: 0;
+	border: 1px solid #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	padding: 0;
 }
 
 .footer_social .fa {
-    font-size: 15px;
+	font-size: 15px;
 }
 
 /*======= Copy-right_area CSS START =======*/
 .copyright_area {
-    padding-bottom: 64px;
+	padding-bottom: 64px;
 }
 
 .copyright_area a {
-    padding-right: 28px;
-    line-height: 26px;
+	padding-right: 28px;
+	line-height: 26px;
 }
 
 .copyright_area a:hover {
-    color: #00e0d0;
-    font-weight: 500;
+	color: #00e0d0;
+	font-weight: 500;
 }
 
-/*===========================
-    FOOTER PART CSS END 
-===========================*/
-
+/*===============================
+12.	FOOTER PART CSS END
+================================*/
 
 /*=================================
-    BACK TO TOP-UP BTN CSS START 
+13. BACK TO TOP-UP BTN CSS START 
 =================================*/
 .back-to-top {
-    position: fixed;
-    right: 20px;
-    bottom: 100px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #FFF;
-    background: #00e0d0 !important;
-    border-radius: 50%;
-    border: 1px solid #30235E;
-    z-index: 99;
-    text-align: center;
-    -webkit-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    display: none;
-    -webkit-animation: at-ripple 1.5s linear infinite;
-    animation: at-ripple 1.5s linear infinite;
+	position: fixed;
+	right: 20px;
+	bottom: 100px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	background: #00e0d0 !important;
+	border-radius: 50%;
+	border: 1px solid #30235E;
+	z-index: 99;
+	text-align: center;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+	display: none;
+	-webkit-animation: at-ripple 1.5s linear infinite;
+	animation: at-ripple 1.5s linear infinite;
 }
 
 .back-to-top:hover {
-    color: #00e0d0;
-    background: #fff !important;
-    border: 1px solid #00e0d0;
-    background: #fdfdfd;
+	color: #00e0d0;
+	background: #fff !important;
+	border: 1px solid #00e0d0;
+	background: #fdfdfd;
 }
 
 .back-to-top .fa {
-    font-size: 35px;
+	font-size: 35px;
 }
 
-/*
 @-webkit-keyframes anim {
-    from {
-        right: 20px;
-        bottom: 50px;
-    }
+	from {
+		right: 20px;
+		bottom: 50px;
+	}
 
-    to {
-        right: 20px;
-        bottom: 80px;
-    }
+	to {
+		right: 20px;
+		bottom: 80px;
+	}
 }
 
 @keyframes anim {
-    from {
-        right: 20px;
-        bottom: 50px;
-    }
+	from {
+		right: 20px;
+		bottom: 50px;
+	}
 
-    to {
-        right: 20px;
-        bottom: 80px;
-    }
+	to {
+		right: 20px;
+		bottom: 80px;
+	}
 }
-*/
 
 /*===================================
-    BACK TO TOP-UP BTN CSS END 
+13.	BACK TO TOP-UP BTN CSS END 
 ===================================*/
