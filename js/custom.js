@@ -1,3 +1,13 @@
+/*
+  Theme Name:Tajam PSD to HTML Template
+  Author: #Themeforest Does Not Account But Will Open Soon.
+  Author Email: mdrabiulislam300040@gmail.com
+  Support: mdrabiulislam300040@gmail.com
+  Description: Creative  HTL5 Template.
+  Version: 1.0
+*/
+
+
 $(function () {
     //preloader
     $(window).on('load', function (event) {
